@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameNews - Ebac</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+        body {
+            background-color: rgb(54, 54, 54);
+        }
+
+        header {
+            background-color: rgb(54, 0, 0);
+            color: #fff;
+        }
+
+        .row {
+            padding-top: 64px;
+        }
+
+        #article {
+                padding-bottom: 32px;
+            }
+
+        .card-img-overlay{
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>GameNews - Ebac</h1>
+            </div>
+        </div>
+    </header>
+    <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100" src="https://p2.trrsf.com/image/fget/cf/1200/675/middle/images.terra.com/2023/07/27/baldurs-gate-3-qhswi90megdi.jpg" alt="">
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="https://image.api.playstation.com/vulcan/ap/rnd/202305/2420/2b117db6108244a85769f8009df39f8006b226d8a2831b3a.jpg" alt="">
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="https://image.api.playstation.com/vulcan/ap/rnd/202211/3007/JnzRCl2Yj208yuJoSfoGXMGt.jpg" alt="">
+            </div>
+        </div>
+        <button type="button" data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 col-md-6" id="article">
+                <article class="card text-bg-dark">
+                    <img src="https://cdn2.unrealengine.com/the-game-awards-2023-3-3840x2160-a60bbb379cfb.png" alt="">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Ganhadores do The Game Awards</h4>
+                        <p class="card-text">Veja os ganhadores do The Game Awards 2023</p>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>16/01/2024 às 15:26</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6" id="article">
+                <article class="card text-bg-dark">
+                    <img src="https://sm.ign.com/t/ign_br/screenshot/default/tlou-2_v1w9.960.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">The Last of Us Parte 2 Remastered</h4>
+                        <p class="card-text">Atualizações sobre o desenvolvimento de The Last of Us Part 2 Remastered</p>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>16/01/2024 às 15:26</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-lg-4 col-12 col-md-6" id="article">
+                <article class="card text-bg-dark">
+                    <img src="https://sm.ign.com/t/ign_br/screenshot/default/capa_ftnh.960.png" alt="">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Prince Of Persia The Lost Crown</h4>
+                        <p class="card-text">O que achamos do mais novo jogo da sério Prince of Persia</p>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>16/01/2024 às 15:26</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6" id="article">
+                <article class="card text-bg-dark">
+                    <img src="https://blog.br.playstation.com/tachyon/sites/4/2023/05/ea72010735586f7a1af53efcf0ff6c6d10b9a004.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Foamstars - Square Enix PS4/PS5</h4>
+                        <p class="card-text">Foamstars ganha data de lançamento oficial</p>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>16/01/2024 às 15:26</time>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
